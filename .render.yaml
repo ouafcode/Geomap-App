@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: geomap-app
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn main:app"
+    envVars:
+      - key: DB_CREDENTIALS
+        value:host=your-db-host dbname=your-db user=your-user password=your-password
