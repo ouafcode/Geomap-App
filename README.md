@@ -24,6 +24,7 @@ This is a full-stack web mapping application built with **OpenLayers (frontend)*
 
 ## 📁 Project Structure
 
+```bash
 Geomap-App/
 │
 ├── templates/
@@ -37,6 +38,7 @@ Geomap-App/
 │
 ├── app.py # Main Flask app
 └── requirements.txt # Python dependencies
+```
 
 ---
 
